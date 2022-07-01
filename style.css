@@ -93,10 +93,6 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {
-	
-}
-
 form {
 	margin: 40px 0;
 }
@@ -211,8 +207,12 @@ td, th{
 .itens{
 	line-height: 1.5em;
 }
+
 .itens:first-child{
 	font-weight: bold;
+}
+.itens:before {
+    content: "★";
 }
 .imagem-beneficios{
 	width: 60%;
